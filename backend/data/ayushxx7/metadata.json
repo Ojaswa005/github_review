@@ -1,0 +1,578 @@
+[
+  {
+    "repo_name": "adityagargcomputersonline",
+    "description": "Aditya ji ki website ka revival Karenga",
+    "language": "HTML",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/adityagargcomputersonline",
+    "chunk_id": 0,
+    "text": "adityagargcomputersonline"
+  },
+  {
+    "repo_name": "Facebook-Auto-Liker",
+    "description": "Simple, hacky python script which uses pyautogui to like images on FB.",
+    "language": "Python",
+    "stars": 45,
+    "repo_url": "https://github.com/ayushxx7/Facebook-Auto-Liker",
+    "chunk_id": 0,
+    "text": "About A very simple and hacky Image AutoLiker Bot for Facebook. Uses PyAutoGui extensively. User needs to be logged into their account, and first image should be opened up. This state should be immediately switched to script runner[such as CMD/PyCharm] (using alt tab). Number of images is specified inside the script itself. The image [likeButtonOnFB] is unique for each monitor, take your own screen shot and replace with file present. Ideas for betterment will be highly appreciated. Star History"
+  },
+  {
+    "repo_name": "sarah-s-ai-recruiter",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/sarah-s-ai-recruiter",
+    "chunk_id": 0,
+    "text": "Welcome to your Lovable project Project info URL : https://lovable.dev/projects/REPLACE WITH PROJECT ID How can I edit this code? There are several ways of editing your application. Use Lovable Simply visit the and start prompting. Changes made via Lovable will be committed automatically to this repo. Use your preferred IDE If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable. The only requirement is having Node.js & npm installed Follow these steps: Edit a file directly in GitHub Navigate to the desired file(s). Click the \"Edit\" button (pencil icon) at the top right of the file view. Make your changes and commit the changes. Use GitHub Codespaces Navigate to the main page of your repository. Click on the \"Code\" button (green button) near the top right. Select the \"Codespaces\" tab. Click on \"New codespace\" to launch a new Codespace environment. Edit files directly within the Codespace and commit and push your changes once you're done. What technologies are used for this project? This project is built with: Vite TypeScript React shadcn ui Tailwind CSS How can I deploy this project? Simply open and click on Share Publish. Can I connect a custom domain to my Lovable project? Yes, you can! To connect a domain, navigate to Project Settings Domains and click Connect Domain. Read more here:"
+  },
+  {
+    "repo_name": "youtube-downloader",
+    "description": "streamlit app to download youtube videos in 4k (or maximum resolution available). you can choose to only download the audio as well.",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/youtube-downloader",
+    "chunk_id": 0,
+    "text": "YouTube Downloader A simple Streamlit web app to download YouTube videos and audio in various formats and qualities using yt dlp and ffmpeg. Features Download YouTube videos and shorts Choose video quality and audio format Real time download progress Download as video+audio or audio only Requirements Python 3.11+ (must be installed on your system) Setup 1. Clone the repository: 2. Install Python dependencies: Or use the provided with your preferred tool (e.g., , , or ). 3. Install ffmpeg: macOS: Ubuntu: Windows: and add to PATH 4. Run the app: Using (Recommended for Fast Python Projects) 1. Initialize the project (if not already initialized): (Skip this if already exists) 2. Install dependencies: or, if you want to use requirements.txt: 3. Run the app: Usage Enter a YouTube video or shorts URL. Click \"Get Video Info\" to preview details. Select download options and click \"Start Download\". When complete, click the download button to save the file. Project Structure \u2014 Main Streamlit app \u2014 Helper modules for downloading, file management, and validation \u2014 Project dependencies \u2014 Files and folders to exclude from Git Tests install requirements from and run Contributing Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change. License Specify your license here (e.g., MIT, Apache 2.0, etc.)"
+  },
+  {
+    "repo_name": "mercari-search-ai-agent",
+    "description": "Japan AI wants to build a search app for mercari that uses LLMs but only for the search / content understanding / query understanding and does not want to use existing ai agent tech like langchain",
+    "language": "Python",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/mercari-search-ai-agent",
+    "chunk_id": 0,
+    "text": "Mercari Japan AI Shopper YouTube Demo https://youtu.be/I8T2OkYEtC0 https://youtu.be/ EjY6mQODjM Overview This project is a Python based AI agent and web application for searching, scraping, and recommending products from Mercari Japan. It features a robust backend scraper, PostgreSQL integration, SEO tagging, and a modern Streamlit UI. The system is designed to: Understand user requests (LLM integration ready) Search Mercari Japan for products using diverse keywords Extract and store product data (name, price, image, etc.) Tag products with SEO metadata Present products in a user friendly, filterable web UI Setup Instructions 1. Clone the repository: 2. Install dependencies: 3. Configure PostgreSQL: Edit with your database credentials. Ensure your PostgreSQL server is running. 4. Run the scraper: 5. Tag products with SEO tags: 6. Launch the Streamlit UI: LLM Provider Setup To use the AI Assistant features, you can choose between OpenAI and OpenRouter as the LLM provider. The app supports both, with a UI toggle and automatic fallback if one fails. Set the following environment variables (e.g., in your Streamlit Cloud or local .env): \u2014 Your OpenAI API key (https://platform.openai.com/) \u2014 Your OpenRouter API key (https://openrouter.ai/) \u2014 (Optional, defaults to ) Usage Instructions Use the web UI to search, filter, and browse products. The search bar supports real time keyword search. Filter by SEO tags, price, and more. Usage Instructions (AI Assistant) Enable the \"AI Assistant\" checkbox in the UI to use LLM powered search and recommendations. Select your preferred LLM provider (OpenAI or OpenRouter) from the sidebar. If the selected provider fails (e.g., quota exceeded), the app will automatically try the other provider. The AI Assistant supports hybrid English/Japanese queries and can match product names, tags, and descriptions across both languages, including transliterations and synonyms. LLM based translation is used to improve understanding and matching of user queries and product data. Design Choices Scraping: Uses for robust, API like scraping of Mercari Japan. Database: PostgreSQL with SQLAlchemy ORM for reliability and scalability. SEO Tagging: Rule based tagger for product enrichment. UI: Streamlit for rapid, modern web app development. Extensibility: LLM integration (OpenAI/OpenRouter) enables natural language understanding, hybrid language search, and smart recommendations. Potential Improvements Add user authentication and favorites/cart features. Schedule periodic scraping and auto tagging. Add more advanced analytics and product insights. Expand SEO tagging with LLMs for richer metadata."
+  },
+  {
+    "repo_name": "mercari-search-ai-agent",
+    "description": "Japan AI wants to build a search app for mercari that uses LLMs but only for the search / content understanding / query understanding and does not want to use existing ai agent tech like langchain",
+    "language": "Python",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/mercari-search-ai-agent",
+    "chunk_id": 1,
+    "text": "Streamlit for rapid, modern web app development. Extensibility: LLM integration (OpenAI/OpenRouter) enables natural language understanding, hybrid language search, and smart recommendations. Potential Improvements Add user authentication and favorites/cart features. Schedule periodic scraping and auto tagging. Add more advanced analytics and product insights. Expand SEO tagging with LLMs for richer metadata. License MIT"
+  },
+  {
+    "repo_name": "facebook",
+    "description": "",
+    "language": "Unknown",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/facebook",
+    "chunk_id": 0,
+    "text": "facebook"
+  },
+  {
+    "repo_name": "rag",
+    "description": "retrieval augment generation (rag) streamlit (st) based web app with chatbot support from Gemini",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/rag",
+    "chunk_id": 0,
+    "text": "Bollywood Hungama Chatbot \ud83c\udfac\u2728 A Retrieval Augmented Generation (RAG) Streamlit web app that lets you chat with a fun Bollywood themed bot about YouTube videos! Uses Gemini (Google Generative AI), HuggingFace embeddings, FAISS vector store, and a stylish Bollywood UI. Features Bollywood themed chatbot UI with random quotes and fun loading messages. Gemini (Google Generative AI) for high quality, context aware answers. HuggingFace sentence transformers for embedding video data and queries. FAISS for fast vector search and retrieval. Streamlit for a modern, interactive web interface. Chat history with Bollywood flair. Automatic FAISS index creation from your YouTube video JSON data. Setup & Run 1. Install requirements 2. Prepare your data Place your YouTube video data in a file named in the project root. See below for the required structure. 3. Run the app Usage The app will load your , create a FAISS vector store, and launch the chatbot. Ask any question about the videos (e.g., \"Which video has the most views?\", \"Tell me about the song Uyi Amma\"). Enjoy Bollywood quotes and themed responses! Under the Hood Embeddings: Uses from HuggingFace for text embeddings. Vector Store: Uses for fast similarity search. LLM: Uses Gemini ( ) via Google Generative AI for generating answers. UI: Built with Streamlit, styled with Bollywood colors, emojis, and quotes. Sample Queries \"Which video is the most popular?\" \"Tell me about the song Uyi Amma.\" \"Who are the singers in Mere Mehboob?\" Data Format Your should look like this: Credits Made with \u2764\ufe0f for Bollywood fans. Follow . Codespace"
+  },
+  {
+    "repo_name": "ceo",
+    "description": "",
+    "language": "TypeScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/ceo",
+    "chunk_id": 0,
+    "text": "This is a project bootstrapped with . Getting Started First, run the development server: Open with your browser to see the result. You can start editing the page by modifying . The page auto updates as you edit the file. This project uses to automatically optimize and load , a new font family for Vercel. Learn More To learn more about Next.js, take a look at the following resources: learn about Next.js features and API. an interactive Next.js tutorial. You can check out your feedback and contributions are welcome! Deploy on Vercel The easiest way to deploy your Next.js app is to use the from the creators of Next.js. Check out our for more details."
+  },
+  {
+    "repo_name": "bongster91.github.io",
+    "description": "",
+    "language": "Unknown",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/bongster91.github.io",
+    "chunk_id": 0,
+    "text": "Personal Web Site Introduction This project will build on the technical and non technical skills that you have learned up to now: Building Web sites with HTML and CSS Using JavaScript to make Web sites interactive Fundamental UI/UX principles Developing your personal brand and online profiles You'll use these skills to build an MVP of your personal web site . This Web site is a place to show the tech industry who you are and what you can do. By the time you are job ready, your personal site will probably use additional technologies and skills we have not covered yet. For now, this project will be an MVP (Minimum Viable Product) that you can continue to enhance during the course. Examples This sample project is far from perfect. You do not need to copy any specific feature here. You can and should use your own creativity! For more inspiration, here are some personal sites from alums! More sites from the Pursuit Community Setup Instructions 1. Fork this repo 1. Clone the forked repo to your machine 1. to the cloned folder and write your code! Submission Instructions 1. Complete the project 1. Commit and push your changes to your fork 1. Submit a pull request back to the assignment repo 1. Paste a link to your pull request (not your fork!) on Canvas and submit 1. You only need to submit for the assignment that says Note : Remember to , and regularly Trello Board For this project, we will give you a blank Trello board and you will be responsible for creating cards this time. Start by copying . Instructions here: Give your board a title with your name and class number (7.2, 8.3, etc...) For past projects, we gave you a board that already had cards on it. This time, you will create the cards. Create a card for each user story and put it in the column. In each card, create a checklist with the acceptance criteria for the story. You may also want to create cards for other project milestones and criteria. For example: Create design mockup Do user testing Create grid layout Create navigation UI Choose accessible fonts and colors Prepare demo for Feedback Fair Make UI work for mobile devices Deploy site to"
+  },
+  {
+    "repo_name": "bongster91.github.io",
+    "description": "",
+    "language": "Unknown",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/bongster91.github.io",
+    "chunk_id": 1,
+    "text": "criteria for the story. You may also want to create cards for other project milestones and criteria. For example: Create design mockup Do user testing Create grid layout Create navigation UI Choose accessible fonts and colors Prepare demo for Feedback Fair Make UI work for mobile devices Deploy site to GitHub pages in class Also notice that you can set DEADLINES for a card, which may help you manage your time. When you are done, replace the link below with the link to your Trello board: User Stories As a user, I can learn information about you. Acceptance criteria I can see your full name. I can see your Pursuit headshot photo. I can read a short description of you. As a user, I can learn about your recent projects. Acceptance criteria I can learn about at least two projects that you built. For each project, I can see a screenshot of the project, a text description of the project, and a link to the project's GitHub repo. As a user, I can see how to contact or follow you. Acceptance criteria I can click a link to send a message to your Pursuit email address. I can click a link to visit your GitHub page. I can click a link to visit your LinkedIn page. As a user, I can navigate your site. Acceptance criteria There is a navigation UI that has links to all of the pages or sections. When I click on a link in the navigation UI, I can view that page/section. As a user, I can experience an interactive UI. Acceptance criteria I can change the content or appearance of the site when I click or interact with elements on the page. Errors do not appear in the browser console when I use an interactive element. Code Quality Rubric All scored from 0 2 (Not Demonstrated, Developing, Mastered) M2.1: Use HTML to build websites M2.3: Use CSS selectors to specify display based on an element's characteristics M2.5: Manipulate the DOM using JavaScript M2.6: Manipulate content and styling on the page by utilizing DOM Events and Event Listeners M2.7: Use Flexbox and Grid to layout a page NEW UI/UX Rubric All scored from 0 1 (Not Demonstrated, Demonstrated) Your project uses grids to organize information clearly."
+  },
+  {
+    "repo_name": "bongster91.github.io",
+    "description": "",
+    "language": "Unknown",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/bongster91.github.io",
+    "chunk_id": 2,
+    "text": "characteristics M2.5: Manipulate the DOM using JavaScript M2.6: Manipulate content and styling on the page by utilizing DOM Events and Event Listeners M2.7: Use Flexbox and Grid to layout a page NEW UI/UX Rubric All scored from 0 1 (Not Demonstrated, Demonstrated) Your project uses grids to organize information clearly. Your project has a clear and consistent structure on each section or page. Your project is readable on mobile devices. Your project uses accessible color contrast Your project follows font size best practices Your project is limited to 3 4 font variations. Your project has navigation that appears in a consistent place across pages and is easy to use Making your site interactive Use your JavaScript and DOM skills to make your site interactive. In other words, there should be at least one place where clicking, selecting, hovering, or submitting information changes the content of the page. Here are a few ideas to consider trying: Clicking on a button expands to show more details or text. Clicking on a button sorts a list of things (ascending or descending). Clicking on a button or selecting an option filters a list of things (example: show all photos, show only travel photos) Instead of navigating to different pages, show and hide page content using JavaScript without loading a new page. Entering information in a form adds content to the page or changes the page content Your own creative idea! <details <summary Hints for showing and hiding elements</summary CSS based approach What CSS attribute can we use to make an element hidden? Can we give an HTML element a CSS class that is styled to make itself hidden? Can we create an extra class that would make the same element visible? How can we use DOM events and JavaScript to add and remove classes from elements? JS based approach Can we store information that we want to show or hide in our JavaScript file instead of in HTML? How can we use JavaScript to keep track of what things are supposed to be shown or hidden? How can we use DOM events and JavaScript to change or replace the HTML or text content of an element when we want to show or hide something? </details Pages or sections You can choose to make your"
+  },
+  {
+    "repo_name": "bongster91.github.io",
+    "description": "",
+    "language": "Unknown",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/bongster91.github.io",
+    "chunk_id": 3,
+    "text": "keep track of what things are supposed to be shown or hidden? How can we use DOM events and JavaScript to change or replace the HTML or text content of an element when we want to show or hide something? </details Pages or sections You can choose to make your site one long page broken up into sections, or your site can have a few different pages. Your site needs to implement all user stories and meet the UI/UX criteria. There are many ways to structure your site to do this. Personal sites often have some or all of these pages: 1. Landing/Home Page : Your homepage is the first page that appears when the site loads. You know what a homepage is. You can put whatever you want here! 2. About/Intro : The about page is where you get to talk about yourself. Do you have a pop pitch? This is the place to put it. Write a bio. Show a picture. Talk about your love of cats, books, or milkshakes. Make this part personal. You can have combine this section wit your landing page if it makes sense. 3. Projects : This section is where you put projects you've worked on during your time at Pursuit and personal projects you may have. Link to each project's GitHub repo, include a screenshot, and write a description. If the project is deployed, include a link to the live version. 4. Contact links : You can put it at the bottom of your page as a footer or in a contact me section. A good font with tons of social icons is 5. Other : (Optional) Anything else with things you may want to include, if you write, then a blog section, if you paint or photograph then a gallery section etc."
+  },
+  {
+    "repo_name": "BackupCart",
+    "description": "This will act as a backup for the custom files.",
+    "language": "HTML",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/BackupCart",
+    "chunk_id": 0,
+    "text": "Paperkart Paperkart License MIT"
+  },
+  {
+    "repo_name": "ayushxx7.github.io",
+    "description": "Trying to push website (currently in development) from local machine to here",
+    "language": "CSS",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/ayushxx7.github.io",
+    "chunk_id": 0,
+    "text": "My Personal Website."
+  },
+  {
+    "repo_name": "ayushxx7",
+    "description": "",
+    "language": "Unknown",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/ayushxx7",
+    "chunk_id": 0,
+    "text": "Hi there \ud83d\udc4b I am , currently working as a Machine Learning Engineer at \ud83d\udd2d I\u2019m currently creating a ML Ops pipleine primarily using AWS SageMaker and FastAPI \ud83c\udf31 I\u2019m currently learning about ChatGPT and Prompt Engineering to build highly scalable and production ready applications \ud83d\udc6f My thoughts and notes are avaible at \ud83d\udcac Ask me about Python, Vim, Git, Automated Testing & Deep Learning \ud83d\udceb How to reach me: My Internet Handle: My Email (base64 encoded): \ud83d\ude04 Pronouns: He/Him/His \u26a1 Fun fact: I wrote a shell script to turn my Bluetooth On & Off"
+  },
+  {
+    "repo_name": "ayush-mandowara-blog",
+    "description": "Tech Blog",
+    "language": "Less",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/ayush-mandowara-blog",
+    "chunk_id": 0,
+    "text": "\ud83d\ude80 Tech Blog Live at: https://ayush mandowara.in/blog Netlify Hosted Link: https://ayush blog.netlify.app/blog"
+  },
+  {
+    "repo_name": "Auto-File-Renamer",
+    "description": "",
+    "language": "Python",
+    "stars": 2,
+    "repo_url": "https://github.com/ayushxx7/Auto-File-Renamer",
+    "chunk_id": 0,
+    "text": "As the name suggests this project is intended to 'automatically rename' files. More often than not, we download torrents which contain file names in a very abrupt fashion, there are irritating periods in between and the episode names are almost always missing. What this project would do is that it will take files names with formats such as S11E04.X264.HDTV.KILLERS and convert them to a much simpler format such as S11E04 THE SNUKE. To do that I first scrape the names from Wikipedia which has very consistent entries for list of episodes for any show using BeautifulSoup and then rename them by using REGEX for pattern matching to verify episode name and it's format and finally OS library to rename the system files accordingly."
+  },
+  {
+    "repo_name": "SentimentBasedProductRecommendationSystem",
+    "description": "Suppose you are working as a Machine Learning Engineer in an e-commerce company named 'Ebuss'. Ebuss has captured a huge market share in many fields, and it sells the products in various categories such as household essentials, books, personal care products, medicines, cosmetic items, beauty products, electrical appliances, kitchen and dining products and health care products.     With the advancement in technology, it is imperative for Ebuss to grow quickly in the e-commerce market to become a major leader in the market because it has to compete with the likes of Amazon, Flipkart, etc., which are already market leaders.     As a senior ML Engineer, you are asked to build a model that will improve the recommendations given to the users given their past reviews and ratings. ",
+    "language": "Jupyter Notebook",
+    "stars": 3,
+    "repo_url": "https://github.com/ayushxx7/SentimentBasedProductRecommendationSystem",
+    "chunk_id": 0,
+    "text": "Sentiment Based Product Recommendation System 1. Data sourcing and sentiment analysis 1. Building a recommendation system 1. Improving the recommendations using the sentiment analysis model 1. Deploying the end to end project with a user interface App Live on Screenshot Assets | Filename | What it is | Type | | | | | | mnb.gz | Sentiment Classification Model (Multinomal Naive Bayes) | sklearn model | | dataset.gz | The training dataset for User Recommendation model | pandas dataframe | | user final rating.gz | User based Product Recommendation Engine | pandas dataframe | | vectorizer.gz | Vectorizer for converting product reviews to vectors | TF IDF Vectorizer | | app.py | Flask App for providing prediction endpoint | python file | | model.py | Product recommendations are generated from this file | python file | | capstone.ipynb | jupyter notebook used for EDA and model building | jupyter notebook | | templates/index.html | frontend code to get user input and display predictions | HTML file | Source Code on Dataset This dataset consists of 30,000 reviews for more than 200 different products. The reviews and ratings are given by more than 20,000 users. The description of each column is provided in atrribute description CSV. Task 1 Build an ML model to get the sentiments corresponding to the users' reviews and ratings for multiple products. Steps 1. Exploratory data analysis 1. Data cleaning 1. Text preprocessing 1. Feature extraction 1. Training a text classification model Task 2 Building a recommendation system 1. User based recommendation system 2. Item based recommendation system Task 3 Recommend 20 products that a user is most likely to purchase based on the ratings. Task 4 Improving the recommendations using the sentiment analysis model Once you recommend 20 products to a particular user using the recommendation engine, you need to filter out the 5 best products based on the sentiments of the 20 recommended product reviews. In this way, you will get an ML model (for sentiments) and the best suited recommendation system. Task 5 Deployment of this end to end project with a user interface using Flask and Heroku 1. Take any of the existing usernames as input. 1. Create a submit button to submit the username. 1. Once you press the submit button,"
+  },
+  {
+    "repo_name": "SentimentBasedProductRecommendationSystem",
+    "description": "Suppose you are working as a Machine Learning Engineer in an e-commerce company named 'Ebuss'. Ebuss has captured a huge market share in many fields, and it sells the products in various categories such as household essentials, books, personal care products, medicines, cosmetic items, beauty products, electrical appliances, kitchen and dining products and health care products.     With the advancement in technology, it is imperative for Ebuss to grow quickly in the e-commerce market to become a major leader in the market because it has to compete with the likes of Amazon, Flipkart, etc., which are already market leaders.     As a senior ML Engineer, you are asked to build a model that will improve the recommendations given to the users given their past reviews and ratings. ",
+    "language": "Jupyter Notebook",
+    "stars": 3,
+    "repo_url": "https://github.com/ayushxx7/SentimentBasedProductRecommendationSystem",
+    "chunk_id": 1,
+    "text": "(for sentiments) and the best suited recommendation system. Task 5 Deployment of this end to end project with a user interface using Flask and Heroku 1. Take any of the existing usernames as input. 1. Create a submit button to submit the username. 1. Once you press the submit button, it should recommend 5 products based on the entered username. Assumption Assumption: No new users or products will be introduced or considered when building or predicting from the models built."
+  },
+  {
+    "repo_name": "DeepLearning-Streaming-Kafka-Pubsub",
+    "description": "A POC for streaming deep learning models using kafka, pubsub, and flask. ",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/DeepLearning-Streaming-Kafka-Pubsub",
+    "chunk_id": 0,
+    "text": "Demo Setup Instructions Kafka Setup https://www.geeksforgeeks.org/how to install and run apache kafka on windows/ https://www.youtube.com/watch?v=EUzH9khPYgs Note that Kafka is setup locally on my personal laptop Pubsub Setup https://cloud.google.com/pubsub/docs/create topic gcloud https://cloud.google.com/pubsub/docs/create topic console Credential file must be placed at root Note that Pubsub is setup on the cloud on my personal GCP account Model CNN based mode on on Fashion MNIST Dataset. To train/update model, update the notebook. Requirements Python3 needs to be installed in the system Requirements must be installed via provided Kafka Setup Local Run zookeeper service Run Kafka server Flask API Server runs on and produces messages after submitting the form Publisher Endpoints Kafka To publish a message to kafka message queue Pubsub To publish a message to pubsub message queue Here, start idx and end idx represent the test set index for fashion MNIST dataset. The above endpoints are called when user submits the form displayed on root url. Consumers Kafka Consumer Consumer with model inference lives here Output is the list of predicted class labels on the test set based on the start idx and end idx provided Output is printed to consumer console Google Pubsub Subscriber Subscriber with model inference lives here Output is the list of predicted class labels on the test set based on the start idx and end idx provided Output is printed to subscriber console Architecture Embedded Architecture for extremely fast inference time Next Steps Move the various configurations to a separate config.json file Deploy the kafka queue implementation onto cloud Try different deployment architectures to see which one fits the best Move common model loading code to a separate class/file and call it in the different consumers Improve model accuracy by changing the model architecture and data augmentation Instead of passing indexes, can give option to upload test image directly to the user Push the inference to a database References https://cloud.google.com/pubsub/docs/emulator https://cloud.google.com/pubsub/docs/create topic console https://cloud.google.com/pubsub/docs/publisher https://github.com/googleapis/python pubsub/blob/main/samples/snippets/subscriber.py https://www.kai waehner.de/blog/2020/10/27/streaming machine learning kafka native model server deployment rpc embedded streams/"
+  },
+  {
+    "repo_name": "Whatsapp_Web",
+    "description": "Cool Whatsapp Web projects using PyAutoGui and Web version's simplicity.",
+    "language": "Python",
+    "stars": 13,
+    "repo_url": "https://github.com/ayushxx7/Whatsapp_Web",
+    "chunk_id": 0,
+    "text": "Cool things done with python on Whatsapp Web! 1. Custom Messages This was intended to add a real \"human\" feel to the otherwise forwarded Whatsapp Messages on Diwali (or any other occasion, but this was created a day before Diwali). Using PyAutoGui and simplicity of Whatsapp Web I was able to create a bot that would send pre selected (yet random) Happy Diwali Message and a Image from a group of images. The messages were of the format 'Blah Blah Happy Diwali cheap Forward blah blah '+contact name+\"blah blah\", and it did wonders. People, for obvious reasons, thought I had put in effort (which I did by the way, but not like they imagined :P ) to send them a personal message. Replies poured in and I had hearty conversations with many individuals I had lost contact of. 2. AutoDL This is for all the assignments and bhavya I recieve via Whatsapp. It downloads those images for me and does so accurately while naming them in a proper sequence. Human Repetition is far too puny compared to these magnificent simple Python Bots. 3. Autodot This is intended to test if a person is online or not, or to simply spam the s it out of people/groups in your contact list. Completely dependent of current working environment and browser config including size of browser and location of web.whatsapp.com (tab number). It is advised to first check pixel location of name box(where name of contact is entered)."
+  },
+  {
+    "repo_name": "Numerical-Tic-Tac-Toe",
+    "description": "Creating a Q-Learning based RL Agent capable of winning a Numerical Tic-Tac-Toe game against a stochastic environment.",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/Numerical-Tic-Tac-Toe",
+    "chunk_id": 0,
+    "text": "Reinforcement Learning Numerical Tic Tac Toe Rules Instead of X\u2019s and O\u2019s, the numbers 1 to 9 are used. In the 3x3 grid, numbers 1 to 9 are filled, with one number in each cell. The first player plays with the odd numbers, the second player plays with the even numbers Each number can be used exactly once in the entire grid. The player who puts down 15 points in a line (column, row, or diagonal) wins the game. Note You can play the game to understand the rules Purpose Build an RL agent (using Q learning) that learns to play Numerical Tic Tac Toe with odd numbers. The environment is playing stochastically (randomly) with the agent, i.e. its strategy is to put an even number randomly in an empty cell. Agent The following is the layout of the agent notebook: Defining epsilon greedy strategy Tracking state action pairs for convergence Define hyperparameters for the Q learning algorithm Generating episode and applying Q update equation Checking convergence in Q values Environment The environment has the following functions: : lets us know if agent or environment won the game : whether game ended (win/tie) or not : list of cells that have not yet been filled up : numbers that have not yet been played. agent will have list of odd numbers while environment will have list of even numbers : all possible actions i.e. combination of allowed positions and allowed values : new state from current state and action : based on action of agent, decides if game is ended. if game is supposed to continue, then environment takes an action as well."
+  },
+  {
+    "repo_name": "YoutubeMetaDataAnalysis",
+    "description": "Understanding the reach of a topic on YouTube by Data Analysis.",
+    "language": "Jupyter Notebook",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/YoutubeMetaDataAnalysis",
+    "chunk_id": 0,
+    "text": "Problem Statement Understanding the reach of a topic on YouTube by Data Analysis We are planning to start a youtube channel about a specific topic on youtube. But before we start, we need to understand the reach of the topic and the currently available data/videos in youtube to differentiate us from similar channels.So we need to implement an analysis system, the specs are given below. Analyse the following Tag Analysis Tag Vs number videos Tag with most videos, least videos etc Tag vs Avg duration of videos Tag with most video time, least video time etc Tag Classification Create Categories Classify tags as Tutorials, demos, live coding etc And calculate above data for each category Additional Add other metrics/analysis useful for the requirement, eg, tags vs no. of comments, view count, likes count etc Output spreadsheets with relevant information Approach Extract Data from YouTube Extract YouTube search results data for topic via YouTube Data API Parse the JSON response to keep only relevant information Analyzing Video Metadata We will be using Jupyter Notebooks for this part of the analysis Analyse the JSON data by putting into a Pandas dataframe Part 1: Analyzing Tags tag vs number of videos: most videos, least videos tag vs duration: most duration, least duration, average duration Dump the information in a csv file for further insights Part 2: Analyzing Categories Topic Modelling Unsupervised Topic Clustering to figure out which tags belong together. Assigning an appropriate category manually. Assigning Categories to each video based on it's tags list Category analysis category vs number of videos: most videos, least videos category vs duration: most duration, least duration, average duration Dump the information in a csv file for further insights Usage Create \"creds.json\" in root folder with the following structure: Install required libraries using: Run for fetching the required data in JSON format Search term can be passed in this call (see block): Once data is extracted, use JupyterNotebook to perform the analysis by selecting \"Restart Kernel and Run All Cells\" option from \"Kernel\" menu. Output The output CSV files will be present in the root folder itself. all category stats.csv category analysis.csv tag analysis.csv tags vs video count.csv The JSON files will also be present in root folder as well. They are stored at each preprocessing step"
+  },
+  {
+    "repo_name": "YoutubeMetaDataAnalysis",
+    "description": "Understanding the reach of a topic on YouTube by Data Analysis.",
+    "language": "Jupyter Notebook",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/YoutubeMetaDataAnalysis",
+    "chunk_id": 1,
+    "text": "Run All Cells\" option from \"Kernel\" menu. Output The output CSV files will be present in the root folder itself. all category stats.csv category analysis.csv tag analysis.csv tags vs video count.csv The JSON files will also be present in root folder as well. They are stored at each preprocessing step for future reference or to analyze fault in case of error in pipeline. References https://stackoverflow.com/questions/40339886/pandas concat generates nan values https://stackoverflow.com/questions/71284185/setting values in one column using another in pandas/71284229 71284229 https://stackoverflow.com/questions/312443/how do you split a list into evenly sized chunks https://stackoverflow.com/questions/36370821/does youtube v3 data api have a limit to the number of ids you can send to vide Note We are not parsing playlists to avoid complexity in this POC. I used an anaconda installation for my JupyterNotebook setup and packages such as pandas, numpy, sklearn came from conda itself. Hence, there could be a version mismatch in requirements.txt or some commands in the notebook."
+  },
+  {
+    "repo_name": "tmdb_search",
+    "description": "spoonshot test gone wild",
+    "language": "HTML",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/tmdb_search",
+    "chunk_id": 0,
+    "text": "Live at: https://ayushxx7.pythonanywhere.com ABOUT: TMDB API BASED MOVIE DETAIL SEARCH ENGINE uses Flask for backend ASSUMPTIONS: CLIENT REQUIRES SIMPLE WEBSITE WITH A SINGLE SEARCH BAR. WILL BE USING THAT SEARCH BAR AND ENTERING MOVIE NAMES WHICH WILL BE A STRING CLIENT EXPECTS FIRST PAGE RESULTS WILL SHOW UP ON THE SAME PAGE ITSELF CLIENT EXPECTS MORE INFORMATION WILL BE PRESENT ON OTHER PAGE AND THERE WILL BE A SIMPLE REDIRECT FROM NAME LIST TO DETAIL ABOUT SELECTED NAME CLIENT DOES NOT NEED SECURTIY FEATURES FOR NOW CLIENT DOES NOT REQUIRE ANY STORAGE OR DATABASE SOLUTION FOR NOW CHOICE OF IMPLEMENTATION: HTML, CSS, JS, BOOTSTRAP TEMPLATE FOR FRONT END TO MAKE THE UI LOOK CLEAN AND FOR FASTER CUSTOMIZATION BECAUSE CLIENT WILL NOT SEE WHAT IS GOING ON BEHIND. FLASK FOR BACKEND BECAUSE IT IS SIMPLE TO SETUP AND RUN, IS A LOW LEVEL FRAMEWORK SO IT IS LIGHTWEIGHT, AND IT SATISFIES ALL REQUIREMENTS JINJA FOR VARIABLE PASSING BETWEEN PYTHON AND HTML HOW TO: git clone https://github.com/ayushxx7/tmdb search.git pip install r requirements.txt py hello.py Server starts running Go to localhost:5000 or http://127.0.0.1:5000 and start searching."
+  },
+  {
+    "repo_name": "gesture-recognition",
+    "description": "Convolution Neural Network (3D CNN / CNN + RNN) to identify gestures made by humans for a (hypothetical) smart tv which can take input such as thumbs up, thumbs down, left swipe etc.",
+    "language": "Jupyter Notebook",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/gesture-recognition",
+    "chunk_id": 0,
+    "text": "Gesture Recognition Project Problem Statement A smart tv manufactures wants to add gesture based controls to their TVs. To start with, the following 5 gestures are planned to be undstood by the TV: Thumbs Up to increase volume Thumbs Down to decrease volume Left Swipe to move 10 seconds back Right Swipe to move 10 seconds ahead Open Palm (Stop) to pause The hardware and software to capture and take action based on the gestures already exists with the manufacturer, our focus will be on . Data The data we have been provided with to train our model consists of images / frames taken in a sequence (videos that are already broken down into images) for various individuals showing the above mentioned hand gestures. The data is labelled with the different classes (gestures) that need to be identified. Approach To do this, we will be using . Specifically, we will be trying two approaches: Approach 1: 3D CNN Model Approach 2: A CNN + RNN Model Experiments | S. No. | Model | Result | Reason | Decision | | | | | | | | 1 | Conv3D | Runtime Exception during training | Generator has less batches than what the model expects while training | Send the correct input for ablation experiment by fixing the range so that model does not expect more batches than the generator is capable of yielding | | 2 | Conv3D | Validation Accuracy: $20\\%$ | Model is not deep enough to learn | Change model configuration to improve accuracy | | 3 | Conv3D | Model throws ValueError exception | The MaxPooling layer had a filter size of $2\\times 2\\times 2$ while the Conv3D layer just before it convolved the image to $1\\times 38\\times 38$ size due to which the dimensions were becoming negative and the model not was being accepted by keras. | Ensure that video frame dimensions and kernel sizes are considered carefully. Try with $1\\times 2\\times 2$ filter in Conv3D Layer. | | 4 | Conv3D | Out of Memory Error when allocating Tensor | Too many parameters | Add pooling layers to reduce number of parameters | | 5 | Conv3D | Kernel Died | batch size too large | reduce batch size | | 6 | Conv3D"
+  },
+  {
+    "repo_name": "gesture-recognition",
+    "description": "Convolution Neural Network (3D CNN / CNN + RNN) to identify gestures made by humans for a (hypothetical) smart tv which can take input such as thumbs up, thumbs down, left swipe etc.",
+    "language": "Jupyter Notebook",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/gesture-recognition",
+    "chunk_id": 1,
+    "text": "Conv3D Layer. | | 4 | Conv3D | Out of Memory Error when allocating Tensor | Too many parameters | Add pooling layers to reduce number of parameters | | 5 | Conv3D | Kernel Died | batch size too large | reduce batch size | | 6 | Conv3D | Out of Memory | GPU Ram is limited | disable GPU usage | | 7 | Conv3D | Validation accuracy $19\\%$ | using low number of epochs and large batch to reduce training time but score is impacted greatly | use a different architecture (stop Conv3D experiments) | | 8 | CNN + RNN (ResNet+GRU) | Training Time too high | GPU was disabled | reduce batch size | | 9 | CNN + RNN (ResNet+GRU) | Memory Error | Even just loading ResNet was consuming $3.2$GB out of $4$GB of GPU Ram | use different model for transfer learning | | 10 | CNN + RNN (MobileNet) | ValueError | When setting and loading weights, should be (224, 224, 3). Received: input shape=(80, 80, 3) | load model without weights. Initialize weights externally. | | 10 | CNN + RNN (MobileNet+GRU) | Memory Error | Even just loading MobileNet was consuming $3$GB out of $4$GB of GPU Ram | disable GPU, use CPU+Main Memory only | | 11 | CNN + RNN (MobileNet+GRU) | Validation Accuracy $87\\%$ | Feature extraction is significantly better with pre trained models (transfer learning). GRUs are good at understanding sequential data. | Increase number of epochs to get better accuracy | | 12 | CNN + RNN (MobileNet+GRU) | Validation Accuracy $92\\%$ | epochs were increased and batch size was increased to 50 | Try freezing layers to improve training time | | 13 | CNN + RNN (MobileNet+GRU) | Validation Accuracy $70\\%$ | the pre trained layers of MobileNet | unfreeze the pre trained layers and improve model architecture | | 14 | CNN + RNN (MobileNet+GRU) | Validation Accuracy $93\\%$ | MobileNet layers were trained. CNN Layers were added after MobileNet Layers. Batch Normalization and Dropouts were used | Increase batch size to improve generalizability | | 15 | CNN + RNN (MobileNet+GRU) | Validation Accuracy $92\\%$ | architecture was similar to previous one, only batch size was increased to 200"
+  },
+  {
+    "repo_name": "gesture-recognition",
+    "description": "Convolution Neural Network (3D CNN / CNN + RNN) to identify gestures made by humans for a (hypothetical) smart tv which can take input such as thumbs up, thumbs down, left swipe etc.",
+    "language": "Jupyter Notebook",
+    "stars": 1,
+    "repo_url": "https://github.com/ayushxx7/gesture-recognition",
+    "chunk_id": 2,
+    "text": "MobileNet layers were trained. CNN Layers were added after MobileNet Layers. Batch Normalization and Dropouts were used | Increase batch size to improve generalizability | | 15 | CNN + RNN (MobileNet+GRU) | Validation Accuracy $92\\%$ | architecture was similar to previous one, only batch size was increased to 200 for faster training | final model as this has least validation loss | Result The model is performing well as far as validation accuracy is concerned. On the whole validation data, 92% accuracy is observed. The model size is around 40MB which is small enough for Smart TVs. The model has total parameters, out of which are trainable."
+  },
+  {
+    "repo_name": "dotfiles",
+    "description": "My custom config files. Mostly, my vimrc. ",
+    "language": "Vim script",
+    "stars": 2,
+    "repo_url": "https://github.com/ayushxx7/dotfiles",
+    "chunk_id": 0,
+    "text": "Ayush Mandowara's Vim Config. How to setup? 1. Make sure you have at least version 8.2 December 2019 release of Vim\\ or higher. Download latest version from 2. Clone this repo: 3. Run file with . In case you don't open the bat in admin mode, it will try to launch itself in Admin mode. 4. Once everything is installed, run to get LSP support for Python. You can get LSP Support for more languages as well. To know more, click . Note Setup You would most likely need to run the bat file twice, as first time chocolatey will be installed, and the second time the other dependencies will be installed using chocolatey. I am looking for a way make this more seamless. Please submit a PR if you can do it for me :) Note Plugin Installation The Plugin Manger (vim plug) will attempt to install all plugins automatically. If that doesn't happen: Open up (g/neov)vim, and press enter on all the errors it will throw right now Enter this command Relaunch (g/neo)vim About the Installer What will this batch script do? Setup my vim config Install . Install , , and using Chocolatey Additional Software Installed Chocolatey This package manager helps us install the other dependencies very easily. Node.js CoC uses Node.js for the language servers required for autocompletion. FZF Fuzzy file search + or Fuzzy buffer search or RG Fuzzy line search or Fuzzy line search inside parent Git directory or BAT Preview window with syntax highlighting Can be used in place of the command LazyGit opens up a much more pleasing git interface shortcuts for doing common git operations Windows 7 On Windows 7, this batch script fails to execute properly You have to install Node.js (v13.14.0) manually from here: You have to install Yarn from here: Once you have these installed, run to get LSP support for Python"
+  },
+  {
+    "repo_name": "EDA-LendingClubCaseStudy",
+    "description": "Identify risky loan applicants to cut down the amount of credit loss using EDA",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/EDA-LendingClubCaseStudy",
+    "chunk_id": 0,
+    "text": "Lending Club Case Study Purpose Identify risky loan applicants to cut down the amount of credit loss using EDA Approach Read the data Treat missing values (drop columns & rows or impute values) Feature Selection (select important columns for analysis) perform univairate, segmented univariate and bivariate analysis add visualizations for improved understanding of the data and for presenting the information in a neat manner draw conclusions such that the loss of the organisation is minimized don't provide loans to applications which are likely to default should provide load to people who are likely to repay (not doing so will be considered a loss as well)"
+  },
+  {
+    "repo_name": "EDA-InvestmentAnalysis",
+    "description": "Choose which investment type, countries and sectors should Spark Funds invest in, given some data and business constraints.",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/EDA-InvestmentAnalysis",
+    "chunk_id": 0,
+    "text": "Investment Analysis using pandas, for analyzing the data. slicing, dicing binning drilling down pivot table group by data cleaning & normalizing using matplotlib & seaborn to visualize the data bar plots pie plots grouping multiple plots together using percentage distribution for better visualization outlier analysis using box plot Storing this here for future reference."
+  },
+  {
+    "repo_name": "LyricsExtraction",
+    "description": "lyrics for given song name",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/LyricsExtraction",
+    "chunk_id": 0,
+    "text": "Lyrics Extraction A simple web scaper which extract lyrics for any given song | Library | Use Case | | | | | bs4 | Parse the webpage to generate HTML Tree. Extract required information from tree. | | requests | Request Web Page from musixmatch that will be parsed. | Prerequisites Python3 Libraries: requests and bs4 How To Run Clone the repository Open command prompt and switch to this folder Install requirements Run the script Enter song name Press Enter and wait for result Process Take input song name Generate MusixMatch search URL Make a get request to the URL Parse the webpage via BeautifulSoup Extract the element to find the song that matched with the input search term Extract URL from the Request the above URL Parse it via BeautifulSoup Extract the Paragraphs which have the lyrics via class: Iterate over the paragraphs and print them to the console Credits Special thanks to for providing such an awesome service."
+  },
+  {
+    "repo_name": "revising_django",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/revising_django",
+    "chunk_id": 0,
+    "text": "revising django This is a personal project I am doing to revise my concepts of Django, for the python discord SOC. We're also creating as we learn."
+  },
+  {
+    "repo_name": "crud-frontend",
+    "description": "React.js Frontend for the CRUD App",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/crud-frontend",
+    "chunk_id": 0,
+    "text": "Frontend for the CRUD App About This will be a single page app, where one can add/delete/update people from the database. Hence, we will be using the 'create react app' toolchain. Further, we will be using to manage the state of the app. Note: To Test Locally This should open up the Dashboard on To Deploy to GitHub Pages Tech Stack | Tech | Use Case | | | | | | UI/UX | | | State Management | | | render forms, buttons and cards | | | render Editable component for updating Profession | | | show notifications after success or failure | | | make API calls to backend | | | connect with redux devtools extension | References Explore"
+  },
+  {
+    "repo_name": "crud",
+    "description": "CRUD API/App using MongoDB, Node.js, React.js",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/crud",
+    "chunk_id": 0,
+    "text": "CRUD App What we are building? We will be building a simple app that will store details about persons. Each Person will have the following attributes associated with them: | Attribute | Type | | | | | ID | int | | Name | str | | DOB | int | | Address | str | | Profession | str | | Marital Status | bool | | Known Languages | array | | Profile Picture | str | | About | str | The app will provide an interface to Add a new person to DB Remove an existing person from DB Update details about an existing person in the DB API Structure | API | TYPE | About | | | | | | /persons | GET | get all persons | | /persons/:id | GET | get person by id | | /persons | POST | add new person (name, dob required) | | /person/:id | PATCH | update person matching id | | /person/:id | DELETE | delete person matching id | | To Test Locally This should open up a connection to the backend on To Deploy to Heroku Tech Stack MongoDB Database MongoDB is a NoSQL database and uses JSON like documents to store information and add to environment variables Create a db directory Node.js Backend Node.js is an asynchronous JS runtime built on Chrome's V8 engine that can execute JS outside a browser. We wil be using the Express framework on top of the Node JS Run Time Express.js has an object corresponding to HTTP. We define the routes by using the methods of this object. It specifies a callback function, which is called when a request is received. Using for interacting with MongoDB. It provides an easy way to create schema. Using module to allow frontend to access backend APIs. React.js Frontend React.js is a UI/UX Library that uses the concept of Virtual DOM to rerender elements without requiring the need to reload the whole page whenever any update happens. Note: Backend and Frontend will be hosted on separate servers Nodemon helps in restarting the server whenever there is a change in the server file. It is therefore added as a dev dependency. In we've added a script with key name"
+  },
+  {
+    "repo_name": "crud",
+    "description": "CRUD API/App using MongoDB, Node.js, React.js",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/crud",
+    "chunk_id": 1,
+    "text": "to reload the whole page whenever any update happens. Note: Backend and Frontend will be hosted on separate servers Nodemon helps in restarting the server whenever there is a change in the server file. It is therefore added as a dev dependency. In we've added a script with key name to run . ~~On running the server we are getting a Deprecation warning, but according to this , it is safe to ignore the warning for now.~~ Downgraded mongoose to 5.11.15 to remove warning. Currently, the API only supports Updating the of a Person via the Patch request. TODO Auto add date Auto add date Delete all documents at once Add support to edit all fields via PATCH or PUT request Further Reading Model View Controller | MVC | About | | | | | View | UI/UX | | Model | Database | | Controller | Routing | RDBMS vs MONGODB | RDBMS | MONGODB | | | | | Database | Database | | Tables | Collections | | Rows | Documents | | Columns | Fields | | Status Code | Meaning | | | | | 200 | Status Ok | | 201 | Created | | 204 | No Response, Do not reload view | | 400 | Incorrect Request | | 404 | Not Found (Incorrect URL) | | 500 | Unknown Server Error | Articles related to deploying Node.js App on Heroku: https://devcenter.heroku.com/articles/preparing a codebase for heroku deployment https://dev.to/urakymzhan/how to deploy mongodb nodejs app to heroku 1c5b https://help.heroku.com/P1AVPANS/why is my node js app crashing with an r10 error https://stackoverflow.com/questions/66049860/cannot connect to mongodb because of wrong uri https://devcenter.heroku.com/articles/troubleshooting node deploys https://stackoverflow.com/questions/9730567/node js mongoose works locally but not on heroku https://www.youtube.com/watch?v=imR9LlbG3pU"
+  },
+  {
+    "repo_name": "learning_hbs",
+    "description": "Self-learning exercise. Mostly because Zendesk uses Handlebars under the hood, and I need to work on customizing Zendesk",
+    "language": "HTML",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/learning_hbs",
+    "chunk_id": 0,
+    "text": "Handlebars.js Handlebars is a templating engine built on Javascript which helps us separate our HTML from our dynamic content. It is a superset of the Mustache. Prerequisites: , search google and install node (different installers for different OS) , Install using:"
+  },
+  {
+    "repo_name": "PyTorchCourse",
+    "description": "learning pytorch from this course: https://jovian.ai/learn/deep-learning-with-pytorch-zero-to-gans/assignment/assignment-1-all-about-torch-tensor",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/PyTorchCourse",
+    "chunk_id": 0,
+    "text": "PyTorch is a deep learning library in Python which uses Tensors to do computatios. It is heavily optimised for using GPUs."
+  },
+  {
+    "repo_name": "pandas-course-project",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/pandas-course-project",
+    "chunk_id": 0,
+    "text": "\" pandas course project\""
+  },
+  {
+    "repo_name": "yt-dl",
+    "description": "Download high quality videos from YouTube",
+    "language": "PowerShell",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/yt-dl",
+    "chunk_id": 0,
+    "text": "Purpose The script lets you download videos from YouTube. Source files: single videos.csv is a list of videos and relative paths. playlists.csv is a list of playlists and relative paths. The paths of .csv save their contents to ./video or a subdirectory of it. Both files can be modified to download any kind of Youtube video and/or playlist. download all.py reads the csv files and saves the contents the specified directory. Technology under the hood: Uses pytube to download videos Uses ffmpeg to merge Audio and Video The audio and video are downloaded in a separate process to increase efficiency Leaving pytube to choose the download stream tends to favor the 720p resolution, hence to overcome this problem we ask the library to iterate over [1080p,720p,480p,360p] This way, it is forced to pick the 1080p stream for video if it's available Multiplexed (muxed) streams are the type that contain both video and audio tracks in the same stream. YouTube provides these streams only in low qualities \u2014 the best they can be is 720p30."
+  },
+  {
+    "repo_name": "retroNet",
+    "description": "Decentralized Social Networking website with a Retro Feel.",
+    "language": "HTML",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/retroNet",
+    "chunk_id": 0,
+    "text": "Code Jam Submission by Team Adventurous Anteaters The original ambitious project was to create a \"Decentralized Social Network.\", something like FidoNet. The idea sprouted from the fact that the theme is \"Early Internet\". Back in the day, not everything was on a single central server, and many networks were not even part of the WWW because it was that new. So, we wanted to create something, that would have one or two parent servers, and rest of the servers could be spawned by anyone. Each spawned server would host their own set of Users, and if the servers had access keys to each others, those users would be able to interact with each other as well. However, we are NOWHERE NEAR THAT! So, if someone sees this and wants to try, you have our blessing :) Setup: 1. git clone the project 2. Install Requirements: pip install r requirements.txt 3. make the migrations: py manage.py makemigrations py manage.py migrate 4. run server: py manage.py runserver Flow of the Project: The home page is the profile page, which requires you to be logged in. There's boilerplate check to see if user is logged in, if not, redirect to login page. From here, user can register as well if no account is present. Once that is done, user will be redirected to Profile page Here, he can see the button to \"Post a Tweet\" Clicking on it shows two text boxes, one is the title of the tweet, and the other is the content. Once posted, the user can see all the posted tweets There is some small functionality added in the icon bar in header, however, most of it is just for the retro feel. The Following endpoints are active: /profile /post /posted /view tweet /register What we Learned from participating in the Jam. GIT HTML/CSS/JS Django basics Templating (Jinja Templating) Team Work Time Management (yeah, right!) Credits: The assets came from these MIT licensed repos on Github:"
+  },
+  {
+    "repo_name": "url_shortner",
+    "description": "A simple URL shortner service made using Django",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/url_shortner",
+    "chunk_id": 0,
+    "text": "URL Shortner using Django A simple URL shortner service made using Django Steps: Creating Short Link 1. Run the project using 2. Visit 3. Enter a valid URL in the input field and submit 4. You will get a token (short link) Accessing original URL using Short Link 5. Visit: 6. You will redirected to the original URL Reference:"
+  },
+  {
+    "repo_name": "learning_quasar",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/learning_quasar",
+    "chunk_id": 0,
+    "text": "Learning Quasar Framework from for DjangoCities."
+  },
+  {
+    "repo_name": "learning_drf",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/learning_drf",
+    "chunk_id": 0,
+    "text": "Starting to learn django rest framework."
+  },
+  {
+    "repo_name": "learning_sockets",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/learning_sockets",
+    "chunk_id": 0,
+    "text": "Trying to learn sockets from this"
+  },
+  {
+    "repo_name": "py-discord-2020-scj",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/py-discord-2020-scj",
+    "chunk_id": 0,
+    "text": "Summer Code Jam 2020: Qualifier ATTEMPTED BY To qualify for the upcoming Summer Code Jam, you'll have to complete a qualifier assignment. For the assignment, you'll have to write an class that could be used to represent an article published on a website. Please read the instructions carefully and submit your solution before the deadline using the . Also, note that we've included a test suite you can use to test your solution before you submit it. Deadline: July 22, 2020 Sign up form: Table of Contents Qualifying for the Code Jam The qualifier assignment has three sections of increasing difficulty: 1. 2. 3. To qualify for the Code Jam, your solution has to pass the basic requirements . However, we urge you to at least try the intermediate and/or advanced requirements if you think you can tackle them. We will publish our solution for the qualifier after the deadline has passed. Rules and Guidelines Your submission will be tested using a Python 3.8.3 interpreter without any additional packages installed. You're allowed to use everything included in Python's standard library, but nothing else. Please make sure to include the relevant statements in your submission. Use as the base for your solution. It includes stubs for the two classes you need to write: and . Do not change the names of the two classes included in . The test suite we will use to judge your submission relies on these two classes. Everything else, including the docstrings of the classes, may be changed. You can leave the class as is if you do not wish to tackle the advanced requirements. Do not include \"debug\" code in your submission. You should remove all debug prints and other debug statements before you submit your solution. This qualifier task is supposed to be an individual challenge , so try to solve it on your own. You should not discuss (parts of) your solution in public (including our server). You are still allowed to do research and ask questions about Python as they relate to your qualifier solution, but try to use general examples if you post code along with your questions. Qualifier Assignment For this assignment, you'll write an class to represent articles published to a blog. Instances of this class will have attributes"
+  },
+  {
+    "repo_name": "py-discord-2020-scj",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/py-discord-2020-scj",
+    "chunk_id": 1,
+    "text": "research and ask questions about Python as they relate to your qualifier solution, but try to use general examples if you post code along with your questions. Qualifier Assignment For this assignment, you'll write an class to represent articles published to a blog. Instances of this class will have attributes like and . You will also write a few methods to work with these classes. We've added a \"stub\" for your class in the file for you fill in. Please read the requirements below carefully; it's important for your code to meet those requirements exactly. Also, note that there's a available for you to test your code before you submit it. For all the examples below, assume we've created an instance of like this: Basic Requirements The requirements listed in this section only apply to the class. 1. Write an method that stores the arguments for the four parameters ( , , , and ) as attributes. The attributes should be publicly available using the same names as the parameters. 2. To make debugging easier, implement a method that returns a string representation of the class. It should exactly match the following format: The value for is formatted using . Make sure to use the of the values for , , and . 3. As it's nice to know how long an article is, implement support for the built in function . It should return the length of . 4. Blogs often feature a short section of an article on their front page. Write a method called that has an parameter named . The method should return a short introduction that contains at most from the start of the article's . To avoid awkwardly cutting off text in the middle of a word, find and \"cut\" the text on the last space or newline character within the first . You may assume there's always at least one space or newline character within the first . The value returned by should not include the space or newline character you used to break up the text. 5. It's often interesting to have some statistics to show on your blog. Write a method called that has an parameter named . The method should return a dictionary of the most common words in the"
+  },
+  {
+    "repo_name": "py-discord-2020-scj",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/py-discord-2020-scj",
+    "chunk_id": 2,
+    "text": "not include the space or newline character you used to break up the text. 5. It's often interesting to have some statistics to show on your blog. Write a method called that has an parameter named . The method should return a dictionary of the most common words in the of the article. If words have the same frequency, order them in the same order in which they first appeared in the . The method should also be case insensitive (for example, and count as the same word). Output the words in lowercase in the dictionary. Every non alphabet (ASCII only) character counts as a space or word break. For example, counts as two \"words\": and . Intermediate Requirements The requirements listed in this section only apply to the class. Please make sure the changes you make for the requirements this section don't break any of the requirements listed in the previous section. 1. A common way to uniquely identify an article is to give it a unique number. Add a feature to the class that gives each new a unique number. The numbers should be sequential and, in good Python tradition, the first article should get an of . You should not define anything outside of the class definition to accomplish this; do not use \"global\" variables. 2. Making mistakes is human and so is trying to fix them. Add a feature to keep track of when the most recent change was made to the article's . Create a new attribute named and set its initial value to . When a change is made to the , obtain the current date and time with and assign it to . To avoid making breaking changes to the class's \"API\", should still be accessed and changed with normal attribute access. 3. A common operation on a collection of articles is to sort them by their publication date. Add support for sorting objects directly without having to use a function for or . The sorting order should be based solely on the attribute. Sorting in ascending order (the default) should result in the oldest article being first. Advanced Requirements The requirements in this section will ask you to implement the class. It is not necessary to make changes to the class, but"
+  },
+  {
+    "repo_name": "py-discord-2020-scj",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/py-discord-2020-scj",
+    "chunk_id": 3,
+    "text": ". The sorting order should be based solely on the attribute. Sorting in ascending order (the default) should result in the oldest article being first. Advanced Requirements The requirements in this section will ask you to implement the class. It is not necessary to make changes to the class, but if you do, make sure the tests for the requirements in previous sections still pass. While duck typing is a common practice in Python, type checking can come in handy. For example, articles will probably have to be saved to a database with a rigid data type scheme. The types of the article's attributes can be checked upon assignment to catch type errors early rather than late. In this section, you'll implement a simple descriptor that checks if the value assigned to an attribute has the correct type. 1. Implement a descriptor, , that checks if the value assigned to an instance attribute has the correct type. To make the descriptor reusable for different types, its method should have a parameter, which is the type it should check against. To not be too rigid, the type check should allow instances of subclasses of the type in addition to the type itself. If the value has the correct type, the assignment should happen normally; if not, the descriptor should raise a : 2. Whenever you raise an exception, it's important to give the developer enough information to debug the error. Modify your descriptor's exception message to include the name of the attribute being assigned, the name of type that was expected, and the name of the type that was received instead. You should not change the function signature of the method to do this; do not pass the name of the attribute to . The message should exactly match the following format: Test Suite We've written a basic test suite that tests if your code passes the requirements above. We strongly suggest you run these tests before you submit your solution. In principle, if your solutions passes the tests for the basic requirements, you should qualify for the Code Jam. It's perfectly fine to have a look at the tests (see ). This is the same test suite we will use to judge your solution. However, note that we will run"
+  },
+  {
+    "repo_name": "py-discord-2020-scj",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/py-discord-2020-scj",
+    "chunk_id": 4,
+    "text": "In principle, if your solutions passes the tests for the basic requirements, you should qualify for the Code Jam. It's perfectly fine to have a look at the tests (see ). This is the same test suite we will use to judge your solution. However, note that we will run the tests with different data to ensure that solutions were not written to only work with the exact data provided. Running the Test Suite To run the test suite, first download the files and . Place these files in the same directory as the file containing your solution and make sure the file containing your solution is called . Then, open a terminal/command window and change the current directory to your solution's directory. Finally, run the following command: Note: You may have to replace with the command you use to run Python from the command line. If you're using Windows and doesn't work, try instead. If you're using Linux, you may have to use instead. The test suite requires at least Python 3.7 . It has also been confirmed to work with 3.8."
+  },
+  {
+    "repo_name": "gale",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/gale",
+    "chunk_id": 0,
+    "text": "Trying to create a simple, responsive shopping cart page."
+  },
+  {
+    "repo_name": "netlify_blog",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/netlify_blog",
+    "chunk_id": 0,
+    "text": "is a stylish, responsive blog theme for created by . This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form. Preview Status Download and Installation To begin using this template, choose one of the following options to get started: Install via npm: Clone the repo: Usage Basic Usage After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the file in your web browser. Advanced Usage After installation, run and then run which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the to see which tasks are included with the dev environment. Gulp Tasks the default task that builds everything browserSync opens the project in your default browser and live reloads when changes are made compiles SCSS files into CSS and minifies the compiled CSS minifies the themes JS file copies dependencies from node modules to the vendor directory You must have npm and Gulp installed globally on your machine in order to use these features. Troubleshooting and Help Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap. Bugs and Issues Have a bug or an issue with this template? here on GitHub or leave a comment on the . About Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects. https://startbootstrap.com https://twitter.com/SBootstrap Start Bootstrap was created by and is maintained by , Owner of . http://davidmiller.io https://twitter.com/davidmillerskt https://github.com/davidtmiller Start Bootstrap is based on the framework created by and . Copyright and License Copyright 2013 2018 Blackrock Digital LLC. Code released under the license."
+  },
+  {
+    "repo_name": "open",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/open",
+    "chunk_id": 0,
+    "text": "is a stylish, responsive blog theme for created by . This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form. Preview Status Download and Installation To begin using this template, choose one of the following options to get started: Install via npm: Clone the repo: Usage Basic Usage After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the file in your web browser. Advanced Usage After installation, run and then run which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the to see which tasks are included with the dev environment. Gulp Tasks the default task that builds everything browserSync opens the project in your default browser and live reloads when changes are made compiles SCSS files into CSS and minifies the compiled CSS minifies the themes JS file copies dependencies from node modules to the vendor directory You must have npm and Gulp installed globally on your machine in order to use these features. Troubleshooting and Help Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap. Bugs and Issues Have a bug or an issue with this template? here on GitHub or leave a comment on the . About Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects. https://startbootstrap.com https://twitter.com/SBootstrap Start Bootstrap was created by and is maintained by , Owner of . http://davidmiller.io https://twitter.com/davidmillerskt https://github.com/davidtmiller Start Bootstrap is based on the framework created by and . Copyright and License Copyright 2013 2018 Blackrock Digital LLC. Code released under the license."
+  },
+  {
+    "repo_name": "SeleniumTesting",
+    "description": "learning selenium",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/SeleniumTesting",
+    "chunk_id": 0,
+    "text": "\" Selenium Testing\""
+  },
+  {
+    "repo_name": "FB_new",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/FB_new",
+    "chunk_id": 0,
+    "text": "facebook automation"
+  },
+  {
+    "repo_name": "LearningREGEX",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/LearningREGEX",
+    "chunk_id": 0,
+    "text": "Learning Regular Expressions!"
+  },
+  {
+    "repo_name": "ImageScraperGoogle",
+    "description": "simple image link scraper made for a friend",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/ImageScraperGoogle",
+    "chunk_id": 0,
+    "text": "\" ImageScraperGoogle\""
+  },
+  {
+    "repo_name": "instagramLiker",
+    "description": "simple python based instragam.com liker",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/instagramLiker",
+    "chunk_id": 0,
+    "text": "instagramLiker simple python based instragam.com liker basic functionality + only double clicks unliked photos. STEPS open instagram with the first image of a page to like alt tab to cmd where u run the script voila MAKE SURE TO PLACE MOUSE ON IMAGE then ALT TAB to CMD and then without changing mouse position run script also checkInsta.png should be in same location as script"
+  },
+  {
+    "repo_name": "Randomizer",
+    "description": "Idea decided for Hackathon",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/Randomizer",
+    "chunk_id": 0,
+    "text": "Randomizer Idea decided for Hackathon It's simple enough, visit our website, click on one of the 4 options & open something random. Best for people who are bored & feel there is not enough new content to see."
+  },
+  {
+    "repo_name": "learning_api_ajax",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/learning_api_ajax",
+    "chunk_id": 0,
+    "text": "learning api ajax"
+  },
+  {
+    "repo_name": "handlebars",
+    "description": "learnt basics of handlebars.js along with some ajax and json. Don't want to loose those files.",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/handlebars",
+    "chunk_id": 0,
+    "text": "Just a backup online."
+  },
+  {
+    "repo_name": "PaperCalculator",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo_url": "https://github.com/ayushxx7/PaperCalculator",
+    "chunk_id": 0,
+    "text": "Paper Calculator for Client. This will act as a backup."
+  },
+  {
+    "repo_name": "Zipfs_Law",
+    "description": "Ziph's Law Verification using Python.",
+    "language": "Python",
+    "stars": 4,
+    "repo_url": "https://github.com/ayushxx7/Zipfs_Law",
+    "chunk_id": 0,
+    "text": "Zipf's law states that given some corpus of natural language utterances, the frequency of any word is inversely proportional to its rank in the frequency table. I was made aware of this law because of Vsauce <https://www.youtube.com/watch?v=fCn8zs912OE and was quite frankly baffled and mindf ked beyond thought. Once I was certain it was true for so many things, I decided to have my own version for verifying it. Enter South Park. I realised that South Park was probably really good source to do data analysis on and so I did. I used subs for the series from Season one to eighteen as my raw input. SRT files are read, punctuations are removed and so are the [br] breaks in the subs (specific to my download I guess) A csv file is made from the data using Counter function. This csv file is used to plot a normal graph and a log graph of the frequency table from the csv. Happy to say, the law is valid :) and I was able to verify it along with a learning a lot about regex, matplotlib, csv reader and the ease of Python as a whole :)"
+  }
+]

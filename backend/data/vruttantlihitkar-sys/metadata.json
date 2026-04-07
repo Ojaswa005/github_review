@@ -1,0 +1,38 @@
+[
+  {
+    "repo_name": "SQL_PRACTICE_LEETCODE",
+    "description": "",
+    "language": "Unknown",
+    "stars": 0,
+    "repo_url": "https://github.com/vruttantlihitkar-sys/SQL_PRACTICE_LEETCODE",
+    "chunk_id": 0,
+    "text": "A collection of LeetCode questions to ace the coding interview! Created using <! LeetCode Topics Start LeetCode Topics Database | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | <! LeetCode Topics End"
+  },
+  {
+    "repo_name": "FILPKART-EXCEL-PROJECT",
+    "description": "",
+    "language": "Unknown",
+    "stars": 0,
+    "repo_url": "https://github.com/vruttantlihitkar-sys/FILPKART-EXCEL-PROJECT",
+    "chunk_id": 0,
+    "text": "\ud83d\udcca Customer Service Analytics \u2013 Flipkart (Excel Project) \ud83d\udccc Project Overview Flipkart is one of India\u2019s leading e commerce platforms and relies heavily on customer service to maintain customer satisfaction and retention. In this project, customer call data was analyzed using Microsoft Excel to understand how customer service factors such as response time, sentiment, call duration, channel, and region impact Customer Satisfaction Score (CSAT) and, indirectly, customer retention. The project follows an end to end analytics workflow: data preparation \u2192 exploratory data analysis \u2192 dashboarding \u2192 insights & recommendations . \ud83c\udfaf Business Objective Identify customer service issues contributing to lower customer satisfaction Understand key drivers affecting CSAT Provide data backed recommendations to improve customer experience and retention \ud83e\uddfe Dataset Description The dataset contains 30,000 customer service call records with the following key attributes: Customer demographics (gender, location) Call details (timestamp, duration, channel, reason) Operational metrics (response time, call center) Customer feedback (sentiment, CSAT score) \ud83d\udee0\ufe0f Tools & Technologies Microsoft Excel Power Query (basic cleaning) Pivot Tables Pivot Charts Slicers Excel Dashboards \ud83e\uddf9 Data Preparation Steps The following data preparation steps were performed to ensure accuracy and consistency: 1. Cleaned missing City and State values and replaced with \u201cUnknown\u201d 2. Standardized Gender values for consistency 3. Converted call timestamps into proper date format 4. Handled missing CSAT values by excluding them from average calculations 5. Categorized customer sentiment into ordered levels (Very Negative \u2192 Very Positive) 6. Converted sentiment into numeric scores for analysis 7. Categorized response time into SLA based groups (Good, Average, Poor) 8. Created call duration buckets (Short, Medium, Long) 9. Removed duplicate and inconsistent records 10. Created derived columns to support pivot analysis and dashboards \ud83d\udcd0 Metrics & KPIs Defined Average CSAT Score Response Time (SLA compliance) Average Call Duration Sentiment Distribution Call Volume CSAT by Channel CSAT by Call Center CSAT by Region (State/City) \ud83e\uddea Hypotheses Tested 1. Higher response time leads to lower CSAT 2. Negative sentiment customers have lower CSAT 3. Longer call durations negatively impact customer satisfaction 4. Customer satisfaction varies across call centers and channels 5. Certain regions consistently underperform in CSAT \ud83d\udcca Exploratory Data Analysis (EDA) EDA was performed using pivot tables and charts to uncover patterns and trends, including: CSAT vs Sentiment CSAT vs Response Time (SLA) CSAT vs Call"
+  },
+  {
+    "repo_name": "FILPKART-EXCEL-PROJECT",
+    "description": "",
+    "language": "Unknown",
+    "stars": 0,
+    "repo_url": "https://github.com/vruttantlihitkar-sys/FILPKART-EXCEL-PROJECT",
+    "chunk_id": 1,
+    "text": "negatively impact customer satisfaction 4. Customer satisfaction varies across call centers and channels 5. Certain regions consistently underperform in CSAT \ud83d\udcca Exploratory Data Analysis (EDA) EDA was performed using pivot tables and charts to uncover patterns and trends, including: CSAT vs Sentiment CSAT vs Response Time (SLA) CSAT vs Call Duration CSAT by Channel CSAT by Call Center CSAT by State (Top 10) Customer distribution across India Call volume trends over time Reason wise call distribution \ud83d\udcc8 Dashboard An interactive Excel dashboard was built to summarize insights, featuring: KPI Cards (Total Calls, Avg CSAT, Avg Call Duration, % Poor SLA) CSAT vs Sentiment CSAT vs Response Time CSAT by Channel and Call Center Call Volume by Reason Time series trend of customer calls Slicers for Date, Channel, Sentiment, and Response Time \ud83d\udd0d Key Insights Calls handled outside SLA consistently result in lower CSAT Negative and neutral sentiment customers form the majority and lower overall satisfaction Billing related issues account for nearly 70% of customer calls Certain call centers and regions consistently underperform Medium duration calls tend to have slightly better satisfaction than very short or long calls \u2705 Recommendations Reduce SLA breaches by improving response time efficiency Provide targeted training for handling negative sentiment customers Improve first call resolution for billing related issues Strengthen customer service capacity in high volume regions Optimize chatbot workflows to improve CSAT \ud83d\udcc1 Repository Structure"
+  },
+  {
+    "repo_name": "DSA-PRACTISE",
+    "description": "TODAY ITS 19-AUG. I AM STARTING MY DSA REVESION JOURNEY",
+    "language": "C++",
+    "stars": 0,
+    "repo_url": "https://github.com/vruttantlihitkar-sys/DSA-PRACTISE",
+    "chunk_id": 0,
+    "text": "DSA PRACTISE TODAY ITS 19 AUG. I AM STARTING MY DSA REVESION JOURNEY"
+  }
+]

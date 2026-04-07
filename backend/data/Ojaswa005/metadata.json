@@ -1,0 +1,56 @@
+[
+  {
+    "repo_name": "ojaswa005",
+    "description": "",
+    "language": "Unknown",
+    "stars": 0,
+    "repo_url": "https://github.com/Ojaswa005/ojaswa005",
+    "chunk_id": 0,
+    "text": "Hey there \ud83d\udc4b I'm Ojaswa, an AI/ML engineer focused on building real world systems with LLMs and data. I work on things like RAG pipelines, NLP systems, and full stack ML applications \u2014 not just models, but complete products that people can actually use. Most of what I build lives at the intersection of: Machine Learning Backend Systems Generative AI Lately, I\u2019ve been exploring how to make LLMs more useful \u2014 faster retrieval, better pipelines, and cleaner integrations into real applications. Everything here is built from scratch \u2014 no template heavy projects. Tools & Tech Languages: Python, C++, SQL, JavaScript ML/DL: PyTorch, TensorFlow, Scikit learn, XGBoost GenAI: LLMs, RAG, BERT, Prompt Engineering Backend: FastAPI, Flask, REST APIs, JWT Data: Pandas, NumPy, Feature Engineering Databases: PostgreSQL, MongoDB, MySQL Tools: Docker, Git, Linux, Jupyter What I\u2019m Working On Improving RAG systems for better retrieval + latency Building end to end AI applications (not just notebooks) Scaling ML backends for real usage A Bit About Me I prefer building over just experimenting More into systems than isolated models I care about performance, not just accuracy Always trying to make things simpler than they look Projects You\u2019ll mostly find: RAG based systems Full stack AI apps NLP + LLM tools"
+  },
+  {
+    "repo_name": "mini_project",
+    "description": "Reaserch paper's AI summary and data retrieval based on the RAG",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/Ojaswa005/mini_project",
+    "chunk_id": 0,
+    "text": "mini project Reaserch paper's AI summary and data retrieval based on the RAG"
+  },
+  {
+    "repo_name": "Yt_Uploader",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/Ojaswa005/Yt_Uploader",
+    "chunk_id": 0,
+    "text": "YouTube Upload Assistant Setup Guide Requirements (requirements.txt) Installation Steps 1. Environment Setup 2. Google API Setup 1. Create Google Cloud Project: Go to Create a new project or select existing one Enable YouTube Data API v3 2. Create OAuth 2.0 Credentials: Go to Credentials section Create credentials \u2192 OAuth client ID Choose \"Desktop application\" Download the JSON file and rename it to Place it in your app directory 3. Configure OAuth Consent Screen: Add your email to test users Set scopes: 3. OpenRouter API Setup 1. Sign up at 2. Get your API key from the dashboard 3. Set environment variable: 4. Audio Setup (Important!) Windows: PyAudio should install automatically If issues occur, install from wheel: Linux: Mac: 5. File Structure Running the Application Usage Guide 1. Initial Setup Set OpenRouter API key in environment Add from Google Cloud Console Authenticate with YouTube (one time setup) 2. Upload Workflow 1. Upload Video : Choose your video file 2. Voice Notes : Click \"Record Voice Notes\" and speak about your video 3. Generate Metadata : Click \"Generate AI Metadata\" 4. Review & Edit : Select title, edit description, review hashtags 5. Upload : Choose privacy setting and upload to YouTube 3. Voice Commands Tips Speak clearly at normal pace Mention key topics, themes, target audience Describe video style, genre, mood Include any special instructions for titles/descriptions Features \u2705 Implemented Features Video file upload with preview Voice to text recording AI metadata generation (titles, descriptions, hashtags) YouTube API integration with OAuth Progress tracking for uploads Session state management Error handling and user feedback \ud83d\udd04 Advanced Features Privacy Controls : Public, unlisted, private options Metadata Templates : Save and reuse common formats Category Selection : Auto categorization based on content Hashtag Intelligence : Categorized by type (content, topic, trending) Progress Indicators : Real time upload progress Responsive Design : Works on desktop and mobile Troubleshooting Common Issues 1. \"No module named 'pyaudio'\" Follow audio setup instructions above Try: 2. Google API Authentication Errors Ensure is in app directory Check OAuth consent screen configuration Verify YouTube Data API is enabled 3. OpenRouter API Errors Verify API key is set correctly Check account has sufficient credits Ensure internet connection for API calls 4. Voice Recognition Issues Check microphone permissions Try calibrating microphone (auto calibrated on"
+  },
+  {
+    "repo_name": "Yt_Uploader",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/Ojaswa005/Yt_Uploader",
+    "chunk_id": 1,
+    "text": "Ensure is in app directory Check OAuth consent screen configuration Verify YouTube Data API is enabled 3. OpenRouter API Errors Verify API key is set correctly Check account has sufficient credits Ensure internet connection for API calls 4. Voice Recognition Issues Check microphone permissions Try calibrating microphone (auto calibrated on first use) Ensure quiet environment for recording Performance Tips 1. Large Video Files : Keep under 128MB for faster processing Use compressed formats (MP4 recommended) 2. API Quotas : YouTube API has daily quotas OpenRouter has rate limits App includes retry logic for failed requests 3. Memory Usage : Large videos processed in chunks Temporary files cleaned automatically API Costs Google YouTube API : Free (with quotas) OpenRouter API : Pay per use (~$0.001 per generation) Speech Recognition : Free (Google Web Speech API) Privacy & Security OAuth tokens stored locally only No user data sent to third parties (except APIs) Voice recordings processed locally Video files not stored permanently Future Enhancements [ ] Thumbnail generation and upload [ ] End screen template application [ ] A/B testing for titles [ ] YouTube Analytics integration [ ] Batch upload capabilities [ ] Custom AI prompts for metadata [ ] Video editing basic features [ ] Schedule publishing [ ] Multi language support Support For issues or questions: 1. Check troubleshooting section above 2. Verify all setup steps completed 3. Check GitHub issues/discussions 4. Review API documentation for Google/OpenRouter"
+  },
+  {
+    "repo_name": "visitors-management-system",
+    "description": "",
+    "language": "CSS",
+    "stars": 0,
+    "repo_url": "https://github.com/Ojaswa005/visitors-management-system",
+    "chunk_id": 0,
+    "text": "visitors management system"
+  },
+  {
+    "repo_name": "Smart-Data-Analyzer",
+    "description": "Smart Data Analyzer Pro \u2014 YouTube Revenue Validation",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/Ojaswa005/Smart-Data-Analyzer",
+    "chunk_id": 0,
+    "text": "Smart Data Analyzer Smart Data Analyzer Pro \u2014 YouTube Revenue Validation"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "repo_name": "Zen-Focus",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Zen-Focus",
+    "chunk_id": 0,
+    "text": "Zen Focus: Hybrid GenAI Wellness Agent \ud83e\uddd8\u200d\u2642\ufe0f An agentic AI system that monitors digital behavior locally and syncs wellness insights to a cloud dashboard. \ud83d\ude80 Features Local Intelligence: Uses Ollama (Phi 3) to analyze keyboard/mouse velocity and app switching patterns. Privacy First: Heavy processing and raw input data stay on the local machine. Hybrid Architecture: Syncs processed \"Wellness States\" to a FastAPI backend. Persistent Analytics: Stores long term focus trends in PostgreSQL (Supabase) . \ud83d\udee0 Tech Stack AI/ML: Ollama, LangChain (Logic), Phi 3 SLM. Backend: FastAPI, Uvicorn, Render (Deployment). Database: Supabase (PostgreSQL). Automation: Pynput, Psutil, Asyncio."
+  },
+  {
+    "repo_name": "Mangeshthale",
+    "description": "",
+    "language": "Unknown",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Mangeshthale",
+    "chunk_id": 0,
+    "text": "<div align=\"center\" <! ANIMATED HEADER BANNER <img width=\"100%\" src=\"https://capsule render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Mangesh%20Thale&fontSize=80&fontColor=fff&fontAlignY=40&desc=Building%20Intelligent%20Systems%20%7C%20GenAI%20%C2%B7%20Agentic%20AI%20%C2%B7%20ML%20%C2%B7%20DL&descSize=18&descAlignY=62&animation=twinkling&stroke=58a6ff&strokeWidth=2\" / <! TYPING ANIMATION ;Open+to+Internships&v=1) <br/ <! SOCIAL BADGES <img src=\"https://komarev.com/ghpvc/?username=Mangeshthale&label=Profile+Views&color=58a6ff&style=flat square\" / </div <br/ <! ABOUT ME with animated robot GIF <img align=\"right\" alt=\"AI Robot Coding\" width=\"340\" src=\"https://user images.githubusercontent.com/74038190/229223263 cf2e4b07 2615 4f87 9c38 e37600f8381a.gif\"/ <br clear=\"right\"/ \ud83d\ude80 Deployed Projects <table <tr <td width=\"50%\" valign=\"top\" \u2696\ufe0f LexSumm Legal Judgement Summarizer using RL Unsupervised REINFORCE agent that reads Indian Supreme Court judgments and extracts 5 aspect structured summaries \u2014 zero reference summaries needed during training. </td <td width=\"50%\" valign=\"top\" \ud83d\udccb AuditScribe Self Correcting RAG Documentation Engine Agentic Corrective RAG (CRAG) engine \u2014 generates a response, detects hallucinations, then self corrects and re retrieves before surfacing the final answer. </td </tr </td <td width=\"50%\" valign=\"top\" \ud83d\udd0d Search Engine \u2014 LLM + Agents ReAct style Multi Agent Search LLM that thinks before it searches \u2014 decomposes queries, uses live web tools, aggregates evidence and synthesizes multi step answers via the ReAct reasoning loop. </td </tr </table \ud83d\udee0\ufe0f Tech Stack <div align=\"center\" \ud83e\udd16 GenAI \u00b7 Agentic AI \u00b7 RAG \ud83c\udfaf Reinforcement Learning \ud83e\udde0 Deep Learning \u00b7 ML \u00b7 NLP \ud83d\udcbb Languages \u00b7 Data \u00b7 Tools </div \ud83d\udcca GitHub Stats <div align=\"center\" <br/ <br/ </div \ud83c\udfc5 Certifications Verified credentials on <! <div align=\"center\" | \ud83c\udfc5 | Certification | Issuer | Highlight | |: :| | | | | \u2705 | Generative AI with LLMs | DeepLearning.AI \u00b7 Coursera | LLM fine tuning, RLHF, deployment | | \u2705 | Machine Learning Specialization | DeepLearning.AI \u00b7 Coursera | Supervised, Unsupervised, RL | | \u2705 | Deep Learning Specialization | DeepLearning.AI \u00b7 Coursera | CNNs, RNNs, Attention, Transformers | | \u2705 | Data Science & Analytics | Coursera | Python, SQL, Visualization | </div <div align=\"center\" <img src=\"https://quotes github readme.vercel.app/api?type=horizontal&theme=dark&quote=The%20agent%20doesn%27t%20just%20predict%20%E2%80%94%20it%20acts%2C%20observes%2C%20and%20improves.&author=Mangesh%20Thale\" / <br/ Let's build something that thinks. Reach out anytime. <br/ <img width=\"100%\" src=\"https://capsule render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer&animation=twinkling\"/ \u2b50 If my work sparked an idea \u2014 drop a star, it means a lot! </div"
+  },
+  {
+    "repo_name": "Search_Engine_LLM_and_agents",
+    "description": "Deployed on Streamlit Cloud",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Search_Engine_LLM_and_agents",
+    "chunk_id": 0,
+    "text": "license: apache 2.0 title: search engine sdk: streamlit emoji: \ud83d\udc28 colorFrom: red colorTo: yellow short description: search engine with llm sdk version: 1.55.0"
+  },
+  {
+    "repo_name": "Swasth-Sathi--IIM-INDORE-HACKATHON-",
+    "description": "Deployed on render.com",
+    "language": "HTML",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Swasth-Sathi--IIM-INDORE-HACKATHON-",
+    "chunk_id": 0,
+    "text": "Swasth Sathi"
+  },
+  {
+    "repo_name": "Breast-Cancer-Subtype-Classification-Using-Multi-Omics-Data",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Breast-Cancer-Subtype-Classification-Using-Multi-Omics-Data",
+    "chunk_id": 0,
+    "text": "Breast Cancer Subtype Classification Using Multi Omics Data A machine learning project that integrates multiple genomic data types to classify breast cancer subtypes with high accuracy. \ud83d\udcca Project Overview This project implements a comprehensive machine learning pipeline to predict detailed breast cancer subtypes by integrating five distinct data types: clinical attributes, Copy Number Alterations (CNA), mRNA expression profiles, DNA methylation data, and somatic mutations. The model systematically processes and merges these complex data sources to train a LightGBM classifier . The final pipeline achieves an accuracy of 81.16% and a weighted F1 score of 0.75 on a held out test set, demonstrating a robust ability to classify cancer subtypes from multi omics data. \ud83c\udfaf Key Features Multi omics Integration : Combines 5 different data types for a holistic and comprehensive analysis. Handles High Dimensional Data : Processes an integrated dataset with over 25,000 molecular and clinical features. Class Imbalance Handling : Implements strategies like filtering ultra rare classes and using balanced class weights to manage a severely imbalanced dataset. Robust Preprocessing : The pipeline includes systematic steps for imputation (filling missing values), feature selection, and data standardization. Reproducible Pipeline : Built using a object to ensure an end to end, reproducible workflow from raw data to final prediction. \ud83d\udcc1 Dataset The project uses the publicly available Breast Invasive Carcinoma (METABRIC) dataset, sourced from the cBioPortal for Cancer Genomics. The dataset originally contains data for 2,509 patients. For this project, we predict 6 distinct breast cancer subtypes after filtering for classes with a sufficient number of samples (\u22653). Data Files Required: The following files must be present in the project's root directory for the pipeline to run: \u2699\ufe0f Methodology The project follows a structured machine learning workflow: 1. Data Loading & Integration : All six CSV files are loaded. Clinical data is merged, and the complex genomic files (CNA, mRNA, methylation) are transposed to a patient by feature format. Mutation data is pivoted to create a binary mutation matrix. All sources are then joined into a single feature matrix. 2. Target Variable Processing : The column is selected as the target. Ultra rare classes (with < 3 samples) are filtered out to ensure model stability and meaningful training. The final text labels are encoded into numerical format. 3. Preprocessing Pipeline :"
+  },
+  {
+    "repo_name": "Breast-Cancer-Subtype-Classification-Using-Multi-Omics-Data",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Breast-Cancer-Subtype-Classification-Using-Multi-Omics-Data",
+    "chunk_id": 1,
+    "text": "are then joined into a single feature matrix. 2. Target Variable Processing : The column is selected as the target. Ultra rare classes (with < 3 samples) are filtered out to ensure model stability and meaningful training. The final text labels are encoded into numerical format. 3. Preprocessing Pipeline : A performs the following sequential steps: Imputation : fills any remaining missing values using the median strategy. Feature Selection : with an ANOVA F test selects the top 300 most informative features from the 25,000 available. Scaling : standardizes the features to have zero mean and unit variance. 4. Modeling : A (LightGBM) is used as the final estimator. It is configured with to effectively handle the imbalanced nature of the cancer subtype distribution. 5. Evaluation : The model is trained on a stratified 75% training split and evaluated on a 25% held out test set. \ud83d\udcc8 Results The final model demonstrates strong predictive performance, successfully distinguishing between the six different cancer subtypes. Accuracy : 81.16% Weighted F1 Score : 0.755 Classification Report: (The final classification report from the notebook should be pasted here for a detailed breakdown of performance per subtype.) Classification Report: precision recall f1 score support Breast 0.00 0.00 0.00 2 Breast Invasive Ductal Carcinoma 0.83 0.99 0.90 275 Breast Invasive Lobular Carcinoma 0.73 0.33 0.46 24 Breast Invasive Mixed Mucinous Carcinoma 0.00 0.00 0.00 4 Breast Mixed Ductal and Lobular Carcinoma 0.17 0.03 0.05 38 Invasive Breast Carcinoma 0.00 0.00 0.00 2 accuracy 0.81 345 macro avg 0.29 0.22 0.23 345 weighted avg 0.73 0.81 0.75 345 \ud83d\udd27 Installation & Usage To reproduce the results, please follow these steps: 1. Clone the repository: `bash git clone cd BIOINFORMATICS ALPHA"
+  },
+  {
+    "repo_name": "LexSumm-Legal-Judgement-Summarizer-using-RL",
+    "description": "Deployed on Huggingface ",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/LexSumm-Legal-Judgement-Summarizer-using-RL",
+    "chunk_id": 0,
+    "text": "Legal Judgment Summarizer using Unsupervised Reinforcement Learning A domain specific, unsupervised abstractive/extractive summarization system designed specifically for Indian Legal Judgments . This project utilizes Deep Reinforcement Learning (Policy Gradient) to generate highly structured, multi aspect summaries (Facts, Analysis, Arguments, Judgment, Statute), overcoming the critical bottleneck of requiring ground truth reference summaries during the training phase. \ud83d\ude80 Project Overview Legal documents, particularly Indian court judgments, are notoriously long, complex, and unstructured. They often contain archaic terminology, intricate sentence structures, and non linear narratives that make manual summarization a time consuming and expensive task. Traditional supervised summarization models fail in this domain because they require massive datasets of paired (document, summary) examples, which are scarce and costly to create in the legal field. The Solution This project solves that data scarcity bottleneck using an Unsupervised RL Agent . Instead of mimicking human summaries, the agent learns to identify and select the most salient sentences by continuously optimizing a Reference Free Reward Function . This function is composed of intrinsic quality metrics\u2014such as coherence, coverage, and diversity\u2014allowing the model to \"teach itself\" what a good summary looks like without ever seeing one. \u2728 Key Features \ud83c\udfaf Domain Specific Encoder Leveraging law ai/InLegalBERT (frozen) to generate 768 dimensional embeddings. Unlike generic BERT models, this encoder is pre trained on Indian legal texts, allowing it to capture nuances like \"petitioner,\" \"respondent,\" and specific acts with greater semantic accuracy. \ud83d\udcd1 Multi Aspect Summarization The model goes beyond generic summaries by segmenting the judgment into 5 distinct, professionally relevant aspects : | Aspect | Description | | | | | Facts | The procedural history and background story leading to the dispute | | Analysis | The court's logical reasoning and application of legal principles | | Argument | The specific contentions and counter claims presented by the petitioner and respondent | | Judgement | The final verdict, operative orders, and sentencing details | | Statute | Explicit references to laws, acts, sections, and constitutional articles cited | \ud83d\udcc4 PDF Processing Pipeline A robust pre processing module built to handle raw PDF judgments sourced directly from the Supreme Court of India. It includes advanced cleaning routines to strip header/footer noise, handle page breaks, and perform accurate sentence tokenization on noisy data. \ud83d\udcca Advanced Evaluation Validated using a"
+  },
+  {
+    "repo_name": "LexSumm-Legal-Judgement-Summarizer-using-RL",
+    "description": "Deployed on Huggingface ",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/LexSumm-Legal-Judgement-Summarizer-using-RL",
+    "chunk_id": 1,
+    "text": "| \ud83d\udcc4 PDF Processing Pipeline A robust pre processing module built to handle raw PDF judgments sourced directly from the Supreme Court of India. It includes advanced cleaning routines to strip header/footer noise, handle page breaks, and perform accurate sentence tokenization on noisy data. \ud83d\udcca Advanced Evaluation Validated using a comprehensive suite of metrics that measure both lexical overlap (ROUGE, METEOR, BLEU) and semantic similarity (BERTScore), ensuring the summaries are not just copying words but retaining meaning. \ud83d\udcc2 Repository Structure \ud83e\udde0 Architecture & Methodology The system employs an Actor Critic style Reinforcement Learning approach where the \"Policy Network\" acts as the agent, making selection decisions based on the document state. 1. The Policy Network (The Agent) The agent is responsible for reading the document and deciding which sentences are worth keeping. Encoder : InLegalBERT processes sentences to produce dense, contextual embeddings that represent the semantic meaning of every sentence Context Layer : A Bi directional LSTM (2 layers, 256 hidden dim) processes these embeddings to capture the global flow of the document Attention Mechanism : A Multi head attention layer allows the model to weigh sentences differently based on the requested aspect Action : The network outputs a probability distribution over all sentences, sampling them to form a candidate summary 2. The Reward Function (The Critic) Since we lack ground truth summaries during training, the model optimizes a composite Reference Free Reward : $$R = 0.25 \\cdot Coh + 0.25 \\cdot Cov + 0.15 \\cdot (1 Red) + 0.10 \\cdot Div + 0.10 \\cdot Info + 0.05 \\cdot Pos + 0.10 \\cdot L {len}$$ | Component | Description | Improvement in Model 2 | | | | | | Coherence (Coh) | Measures cosine similarity between consecutive summary sentences to ensure smooth narrative flow | Weight increased to 0.30 to prioritize readability | | Coverage (Cov) | Calculates how well the summary embeddings semantically cover the original document's embeddings | Weight set to 0.25 for better information retention | | Redundancy (Red) | Penalizes the selection of semantically similar sentences to enforce conciseness | Penalty increased (0.20) to force tighter summaries | | Diversity (Div) | Encourages a wider spread of information by measuring average pairwise distance between sentences | Weight increased (0.15) to capture broader context | | Informativeness"
+  },
+  {
+    "repo_name": "LexSumm-Legal-Judgement-Summarizer-using-RL",
+    "description": "Deployed on Huggingface ",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/LexSumm-Legal-Judgement-Summarizer-using-RL",
+    "chunk_id": 2,
+    "text": "Redundancy (Red) | Penalizes the selection of semantically similar sentences to enforce conciseness | Penalty increased (0.20) to force tighter summaries | | Diversity (Div) | Encourages a wider spread of information by measuring average pairwise distance between sentences | Weight increased (0.15) to capture broader context | | Informativeness (Info) | Measures the \"centrality\" of selected sentences to ensure the most important ideas are picked | Standard weight maintained | | Ordering (Ord) | New in Model 2 : Penalties for selecting sentences out of chronological order | Added feature for logical consistency | REINFORCE with Baseline \ud83d\udcca Models & Datasets Model 1: IN Ext Baseline Dataset : 50 Text files from the IN Ext Legal Dataset Objective : Served as a proof of concept to validate the aspect based separation logic on clean data Limitations : Constrained by fixed length inputs and a standard reward function that didn't account for sentence ordering Model 2: Scaled Indian Kanoon (Advanced) Dataset : 400+ PDF files sourced directly from the Supreme Court of India (2025 data) Optimizations : Memory Management : Implements and dynamic sentence truncation (500 2000 limit) Warmup Scheduler : Learning rate warmup for the first 3 epochs prevents LSTM weights from diverging Improved Rewards : Fine tuned weights that heavily favor coherence and strictly penalize redundancy \ud83d\udcc8 Performance & Results We evaluated both models using a hold out test set. While Model 1 achieves slightly higher raw metric scores due to cleaner training data, Model 2 demonstrates far superior generalization capabilities when dealing with real world, noisy PDF inputs. Metrics Comparison | Metric | Model 1 (50 Docs) | Model 2 (400 Docs) | Interpretation | | | | | | | BERTScore (F1) | 0.832 | 0.828 | Both models achieve high semantic similarity to human references | | ROUGE 1 | 0.381 | 0.375 | Competitive word overlap performance comparable to supervised baselines | | Coherence | 0.804 | 0.804 | Identical semantic flow performance | | Compression Ratio | ~9.0% | ~8.7% | Model 2 produces more concise summaries, filtering out more noise | Detailed visualization charts, including Radar plots and Aspect wise performance breakdowns, are generated in . \ud83d\udee0\ufe0f Installation & Usage Prerequisites Python 3.8+ GPU recommended (NVIDIA Tesla T4 or better for efficient"
+  },
+  {
+    "repo_name": "LexSumm-Legal-Judgement-Summarizer-using-RL",
+    "description": "Deployed on Huggingface ",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/LexSumm-Legal-Judgement-Summarizer-using-RL",
+    "chunk_id": 3,
+    "text": "| Compression Ratio | ~9.0% | ~8.7% | Model 2 produces more concise summaries, filtering out more noise | Detailed visualization charts, including Radar plots and Aspect wise performance breakdowns, are generated in . \ud83d\udee0\ufe0f Installation & Usage Prerequisites Python 3.8+ GPU recommended (NVIDIA Tesla T4 or better for efficient training) Install Dependencies Training To train the advanced model on your own custom dataset of legal PDFs: 1. Place your PDF files in a designated folder 2. Update the directory path in 3. Run the notebook The model will automatically preprocess the PDFs and save checkpoints as files. Evaluation To evaluate a trained model or generate summaries for new documents: \ud83c\udfaf Use Cases Legal Research : Quickly extract key information from lengthy judgments Case Law Analysis : Identify relevant precedents and statutory references Legal Education : Help law students understand complex judgments Document Management : Organize and categorize large volumes of legal documents Client Communication : Generate accessible summaries for non legal audiences \ud83d\udd2e Future Work [ ] Expand to district and high court judgments [ ] Add support for multiple Indian languages [ ] Implement citation network analysis [ ] Deploy as a web service with the Streamlit interface [ ] Fine tune with human feedback (RLHF) [ ] Add support for comparative legal analysis across judgments \ud83e\udd1d Acknowledgements InLegalBERT : Thanks to for providing the pre trained model that forms the backbone of our encoder Indian Kanoon : For providing invaluable access to the legal judgments used for training and validation Supreme Court of India : For making judgments publicly accessible \ud83d\udcc4 License This project is licensed under the MIT License see the file for details. \ud83d\udce7 Contact For questions, suggestions, or collaborations, please open an issue or reach out to the project maintainers. \u2b50 Citation If you use this work in your research, please cite: <p align=\"center\" </p"
+  },
+  {
+    "repo_name": "AuditScribe-A-self-correcting-RAG-documentation-engine",
+    "description": "Deployed on Streamlit Cloud",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/AuditScribe-A-self-correcting-RAG-documentation-engine",
+    "chunk_id": 0,
+    "text": "AuditScribe A self correcting RAG documentation engine"
+  },
+  {
+    "repo_name": "Search_Engine_LLM",
+    "description": "",
+    "language": "Python",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Search_Engine_LLM",
+    "chunk_id": 0,
+    "text": "Search Engine LLM"
+  },
+  {
+    "repo_name": "Application",
+    "description": "",
+    "language": "Unknown",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Application",
+    "chunk_id": 0,
+    "text": "update Application developer B Update Application Adding developer A story"
+  },
+  {
+    "repo_name": "Gittutorial",
+    "description": "",
+    "language": "Unknown",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Gittutorial",
+    "chunk_id": 0,
+    "text": "git tutorial"
+  },
+  {
+    "repo_name": "Kidney-Anomaly-Detection-from-Ultrasound-and-CT-Images",
+    "description": "Kidney Anomaly Detection  from Ultrasound and CT Images",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Kidney-Anomaly-Detection-from-Ultrasound-and-CT-Images",
+    "chunk_id": 0,
+    "text": "ANALYTICA ALPHA Kidney Anomaly Detection from Ultrasound and CT Images"
+  },
+  {
+    "repo_name": "Intrusion-Detection-System",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Intrusion-Detection-System",
+    "chunk_id": 0,
+    "text": "Network Intrusion Detection ML"
+  },
+  {
+    "repo_name": "Electricity-Consumption-Forecasting-using-ML",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Electricity-Consumption-Forecasting-using-ML",
+    "chunk_id": 0,
+    "text": "Electricity forecasting using ML"
+  },
+  {
+    "repo_name": "Video-Game-Sales-analysis-using-PowerBi",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Video-Game-Sales-analysis-using-PowerBi",
+    "chunk_id": 0,
+    "text": "Video Game Sales analysis using PowerBi"
+  },
+  {
+    "repo_name": "Pneumonia-Detection-using-DL",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/Pneumonia-Detection-using-DL",
+    "chunk_id": 0,
+    "text": "Pneumonia Detection using DL"
+  },
+  {
+    "repo_name": "newvideocall",
+    "description": "",
+    "language": "HTML",
+    "stars": 0,
+    "repo_url": "https://github.com/Mangeshthale/newvideocall",
+    "chunk_id": 0,
+    "text": "newvideocall"
+  }
+]
