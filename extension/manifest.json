@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Job Fit Analyzer",
+  "version": "1.0.0",
+  "description": "Analyze GitHub profiles against job roles using a local RAG backend.",
+  "permissions": [],
+  "host_permissions": [
+    "https://github.com/*",
+    "http://127.0.0.1:8000/*",
+    "http://localhost:8000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

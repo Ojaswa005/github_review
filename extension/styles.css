@@ -1,0 +1,176 @@
+#gh-job-fit-panel {
+  position: fixed;
+  top: 88px;
+  right: 24px;
+  width: 340px;
+  max-height: 78vh;
+  overflow-y: auto;
+  z-index: 999999;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.85), transparent 38%),
+    linear-gradient(160deg, #fff7ed 0%, #ffe6c9 52%, #ffd9b0 100%);
+  border: 1px solid rgba(176, 105, 31, 0.18);
+  border-radius: 20px;
+  box-shadow: 0 18px 42px rgba(120, 72, 13, 0.18);
+  padding: 18px;
+  color: #3c2a1a;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  backdrop-filter: blur(10px);
+}
+
+.gh-job-fit-header {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.gh-job-fit-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.gh-job-fit-controls label {
+  grid-column: 1 / -1;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#gh-job-fit-role {
+  border: 1px solid #d5ac7f;
+  border-radius: 12px;
+  padding: 8px;
+  background: #fff;
+  color: #3c2a1a;
+  font-weight: 600;
+  appearance: auto;
+}
+
+#gh-job-fit-run {
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  background: linear-gradient(180deg, #ca6a1d 0%, #b85b14 100%);
+  color: #fff;
+  box-shadow: 0 10px 18px rgba(184, 91, 20, 0.28);
+}
+
+#gh-job-fit-run:hover {
+  background: #ad5915;
+}
+
+#gh-job-fit-status {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #6c4e32;
+}
+
+.gh-job-fit-score-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+  padding: 14px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.gh-job-fit-score-ring {
+  --size: 104px;
+  --thickness: 10px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  background:
+    radial-gradient(closest-side, #fffaf5 calc(100% - var(--thickness) - 4px), transparent calc(100% - var(--thickness))),
+    conic-gradient(var(--ring-color) calc(var(--score) * 1%), rgba(125, 95, 60, 0.14) 0);
+  box-shadow: inset 0 0 0 1px rgba(60, 42, 26, 0.06);
+}
+
+.gh-job-fit-score-inner {
+  width: calc(var(--size) - 28px);
+  height: calc(var(--size) - 28px);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(180deg, #fffdfb 0%, #fff5ea 100%);
+  color: #3c2a1a;
+}
+
+.gh-job-fit-score-number {
+  font-size: 26px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.gh-job-fit-score-label {
+  margin-top: 4px;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7b6244;
+}
+
+.gh-job-fit-score-copy {
+  min-width: 0;
+}
+
+.gh-job-fit-score-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.gh-job-fit-score-subtitle {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: #6c4e32;
+}
+
+.gh-job-fit-score-good {
+  --ring-color: #16a34a;
+}
+
+.gh-job-fit-score-warn {
+  --ring-color: #eab308;
+}
+
+.gh-job-fit-score-bad {
+  --ring-color: #dc2626;
+}
+
+.gh-job-fit-section h4 {
+  font-size: 13px;
+  margin: 14px 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6c4e32;
+}
+
+.gh-job-fit-section ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.gh-job-fit-section li {
+  font-size: 12px;
+  margin-bottom: 6px;
+  line-height: 1.45;
+}
+
+.gh-job-fit-repo {
+  margin-bottom: 8px;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(176, 105, 31, 0.1);
+}
